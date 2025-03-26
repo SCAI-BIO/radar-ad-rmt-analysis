@@ -6,7 +6,7 @@ This repository contains the code to perform analyses and generate plots for our
 
 Dependencies can be installed using [Pixi](https://pixi.sh/latest/) with:
 
-"`bash
+```bash
 pixi install
 pixi shell
 ```
@@ -15,7 +15,7 @@ pixi shell
 
 All scripts are in *src* and organized via [Snakemake](https://snakemake.github.io/). We cannot share the input data within this repository. Still, in principle, execution of the pipeline is possible with the following:
 
-"`bash
+```bash
 snakemake -c64
 ```
 
