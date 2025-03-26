@@ -1,0 +1,41 @@
+general:
+  folds: 5
+  db: null # TODO: add db url
+data:
+  merged: null # TODO: add data path
+trials:
+  rf: 40
+  xgb: 40
+  lr: 40
+  cart: 40
+  sgl: 40
+  ridge: 40
+  lasso: 40
+datasets:
+  - "altoida"
+  - "altoidaDns"
+  - "banking"
+  - "gait_dual"
+  - "gait_tug"
+  - "fitbit"
+  - "axivity"
+  - "mezurio"
+reference_datasets:
+  - "gs"
+  - "iadl"
+random_seeds:
+  - 13411
+  - 15842
+  - 20183
+  - 33016
+  - 33053
+  - 37488
+  - 50831
+  - 71572
+  - 74166
+  - 86483
+classifiers:
+  - "lr"
+  - "rf"
+  - "xgb"
+  - "cart"

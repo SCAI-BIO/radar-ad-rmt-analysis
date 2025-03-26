@@ -1,0 +1,10 @@
+{
+    "HC vs. PreAD": ["axivity", "altoidaDns"],
+    "HC vs. ProAD": ["altoida", "altoidaDns", "fitbit"],
+    "HC vs. MildAD": ["mezurio", "banking", "fitbit"],
+    "PreAD vs. ProAD": ["altoida", "altoidaDns", "banking"],
+    "ProAD vs. MildAD": [],
+    "PreAD vs. MildAD": ["gait_dual", "banking"],
+    "HC vs. AD Spectrum": ["altoida", "altoidaDns"],
+    "HC vs. ProAD+MildAD": ["fitbit", "banking", "mezurio"]
+}
